@@ -1,10 +1,18 @@
-const questions = document.querySelectorAll('.faq-question');
- questions.forEach(question =>
-     { question.addEventListener('click', () => 
-     { const answer = question.nextElementSibling;
-     if (answer.style.display === 'block') { answer.style.display = 'none'; }
-      else { answer.style.display = 'block'; } }); });
+// const questions = document.querySelectorAll('.faq-question');
+//  questions.forEach(question =>
+//      { question.addEventListener('click', () => 
+//      { const answer = question.nextElementSibling;
+//      if (answer.style.display === 'block') { answer.style.display = 'none'; }
+//       else { answer.style.display = 'block'; } }); });
 
+
+const questions = document.querySelectorAll('.faq-question');
+questions.forEach(question => {
+    question.addEventListener('click', () => {
+        const answer = question.nextElementSibling;
+        answer.classList.toggle('active');
+    });
+});
 
 
 
@@ -35,9 +43,16 @@ document.getElementById("Contact").addEventListener("submit", function (event) {
     if (name.trim() === "") {
         nameError.innerHTML = "Please enter your full name.<br>";
         isValid = false;
-    }else{
+    }
+
+    else if(!validateFullName(name)) {
+        nameError.innerHTML = "Invalid full name.<br>";
+        isValid = false;}
+    else{
         nameError.innerHTML = "";
     }
+
+    
 
     // Email
     const emailError = document.getElementById("emailError")
@@ -71,7 +86,7 @@ document.getElementById("Contact").addEventListener("submit", function (event) {
         phoneError.innerHTML = "Please enter your phone number.<br>";
         isValid = false;
     } else if (!validatePhone(phone)){
-        phoneError.innerHTML += "Please enter incorrect phone number.<br>";
+        phoneError.innerHTML = "Please enter incorrect phone number.<br>";
         isValid = false;
     }else{
         phoneError.innerHTML = "";
@@ -96,3 +111,10 @@ function validateCin(cin){
     var regex = /^[a-zA-Z]{2}\d{6}$/;
     return regex.test(cin);
 }
+
+function validateFullName(name) {
+    var regex = /^[A-Za-z\s]+$/;
+    return regex.test(name);
+}
+
+
