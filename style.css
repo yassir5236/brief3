@@ -116,6 +116,7 @@ header{
     height: 700px;
     display: flex;
     flex-direction: column;
+    
     align-items: center;
     justify-content: center;
     border-radius: 20px;
@@ -124,13 +125,13 @@ header{
 .theboom{
     width: 70%;
     color: aliceblue;
-    font-size: 60px;
+    font-size: 50px;
     background-color: rgb(185, 19, 19);
     border-radius: 10px;
     
     padding: 20px;
-    margin: 20px;
-    margin-bottom: 50%;
+    
+    margin-bottom: 40%;
     
     
 }
@@ -138,7 +139,7 @@ header{
 p{
     
     color: aliceblue;
-    font-size: 60px;
+    font-size: 50px;
     border-radius: 10px;
     padding: 20px;
    
@@ -159,7 +160,7 @@ p{
     width: 47%;
     height: 700px;
     background-image: url(Black\ and\ White\ Texture\ Quotes\ Instagram\ Post\ \(1\).png);
-    background-size: cover;
+    background-size: 90vh;
     background-position: center;
     border-radius: 20px;
 }
@@ -180,7 +181,7 @@ p{
 
 .aboutpara{
     font-size: 20px;
-    line-height:8vh;
+    line-height:4vh;
 }
 
 .ourmembers{
@@ -796,7 +797,7 @@ height: 70vh;
     background: #373333; 
     padding: 20px;
     z-index: 1; 
-    width: 120px;
+    width: 200px;
     height: 40vh;
     
 
@@ -811,6 +812,7 @@ height: 70vh;
     font-size: 30px;
     border-radius: 10px;
     color: aliceblue;
+    width: 20%;
 }
 
 .firstcont{
@@ -902,10 +904,11 @@ p{
    
     display: flex;
     justify-content: center;
-    padding: 30px;
+    padding: 20px;
+    margin-bottom: 5%;
     font-size: 30px;
-    background-color: rgb(88, 92, 96);
-    border-radius: 40px;
+    background-color: rgb(134, 137, 141);
+    
     color: #ffffff;
     
 }
@@ -1448,14 +1451,16 @@ padding: 60px;
 }
 
 .formulairestyle{
-    /*background-color: rgb(252, 252, 252);*/
+    
     display: flex;
     flex-direction: column;
+    align-items: center;
     color: rgb(255, 255, 255);
     font-size: 35px;
     width: 70%;
     height: 50%;
     border-radius:0px;
+    margin-right: 50px;
 }
 
 #Reg{
@@ -1489,7 +1494,8 @@ input{
     color: black;
     margin-bottom: 0px;
     border: 1px solid;
-    padding: px;
+    margin: 5px;
+
     
     
 }
@@ -1537,20 +1543,11 @@ input{
 
 
 
-  /* @media (min-width: 768px) and (max-width: 1023px){
+   @media (min-width: 768px) and (max-width: 1023px){
    
-        .back{
-            height: 70vh;
-            background-position: center;
-            background-size: cover;
-        }
+        
     
-        .joinus{
-            font-size:10px;
-            position: relative;
-            top: 80%;
-        }
-    
+      
         
       
     
@@ -1582,7 +1579,7 @@ input{
         border-radius: 10px;
         padding: 20px;
         margin: 0px;
-        margin-top: -100px;
+        margin-top: 00px;
     
     }
     
@@ -1596,13 +1593,7 @@ input{
         
     }
     
-    span{
-        background-color: rgb(152, 3, 3);
-        font-size: 20px;
-        padding: 10PX;
-       
-    }
-    
+   
     .right1{
         background-color: rgb(0, 0, 0);
         width: 100%;
@@ -1627,586 +1618,35 @@ input{
     }
     
     .aboutpara{
-        font-size: 13px;
-        line-height:2vh;
+        font-size: 13px;     
     }
     
-    
-     /* from here is okey look next */
-     
-     
-    
-    
-    /*.ourmembers{
-       
+    .listheader{
         display: flex;
-        justify-content: center;
-        padding: 30px;
-        font-size: 30px;
-    }
-    
-    .pict{
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        padding: 80px;
-        gap: 50px;
-    }
-    
-    .picleft{
-        background-image: url(Instagram\ post\ with\ bodybuilder\ about\ fitness\ club\ &\ gym\ studio\ and\ motivation\ slogan\ \(2\).png);
-        background-size: cover;
-        background-position: center;
-        height: auto;
-        width: 100%;
-        height: 60vh;
-        display: flex;
-        flex-direction: column-reverse;
-        
-    }
-    .picright{
-       
-        width: 100%;
-        height: 60vh;
-        background-image: url(Instagram\ post\ with\ bodybuilder\ about\ fitness\ club\ &\ gym\ studio\ and\ motivation\ slogan\ \(1\).png);
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .zoubir{
-        background-color: rgb(255, 255, 255);
-        display: flex;
-        justify-content: center;
-        font-size: 35px;
-        padding: 10px;
-    }
-    
-    .hamid{
-        background-color: rgb(255, 255, 255);
-        display: flex;
-        justify-content: center;
-        font-size: 35px;
-        padding: 10px;
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    .faqbackround{
-        height: auto;
-        background-image: url(Red\ and\ Black\ Ripped\ Paper\ Black\ Friday\ Flyer\ Portrait.png);
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        
-    }
-    
-    
-    /*.faq{
-        font-size: 20px; /* Adjust the font size for mobile screens */
-      /*  padding: 20px;
-        color: aliceblue;
-        
-        display: flex;
-        justify-content: center;
-       
-    }
-    
-    .firstquestion{
-        background-color: rgb(107, 109, 109);
-        color: aliceblue;
-        font-size: 10px;
-        padding: 20px;
-       
-        margin-left: 0%;
-        margin-top: 20%;
-        padding-right: 3.9%;
-      
-    }
-    
-    .secondquestion{
-        background-color: rgb(165, 167, 167);
-        color: aliceblue;
-        font-size: 10px;
-       
-        padding: 20px;
-        padding-right: 8.15%;
-        margin-left: 0%;
-        margin-bottom: 10%;
-    
-        
-    }
-    
-    
-    
-    
-    
-    
-    footer{
-        background-color: rgb(73, 70, 67);
-    }
-    
-    .footerx{
-       /* background-color: rgb(73, 73, 73);*/
-      /*  height: 50%vh;
-        display: flex;
-        justify-content: space-around;
-    }
-    
-    .footerlist{
-        display: none;
-        
-        padding: 0px;
-        line-height:2;
-        padding:0;
-        margin-left: 0px;
-        color: rgb(255, 255, 255);
-        font-size: 13px;
-        
-    }
-    
-    .fitfoxx h3{
-        
-        background-color: rgb(77, 77, 87);
-        padding: 20px 60px 20px 60px ;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        margin-right: 0px;
-        font-size: 30px;
-        color: rgb(255, 255, 255);
-        border-radius: 20px;
-        
-    
-       
-    }
-    
-    .contactlist{
-        display: none;
-        list-style: none;
-        padding: 0px;
-        line-height:2;
-        color: rgb(255, 255, 255);
-        font-size: 10px;
-    }
-    
-    .servicesx h3{
-        display: none;
-        color: rgb(255, 255, 255);
-        margin-top: 20px;
-        font-size: 13px;
-        
-    }
-    
-    .contact h3{
-        display: none;
-        color: rgb(255, 255, 255);
-        margin-top: 20px;
+        justify-content:space-between ;
         font-size: 15px;
-    }
-    
-    
-    
-    .Mediahome{
-        
-        display: flex;
-        flex-direction: column ;
+        width: 40%;
+        list-style: none;
         align-items: center;
     }
-    .Mediahome p{
-     
-        font-size: 10px;
+   
+
+    .picleft{
+        border-radius: 10px;
+        height: 70vh;
     }
     
-    .mediaxx{
-    
-        height: 50px;
-        font-size: 40px;
+    .picright{
+        border-radius: 10px;
+        height: 70vh;
     }
-    
-    
-    
-    /* page program*/
-    
-    
-    /*.bodyprogram{
-        background-color: black;
+
+    .hamid{
+        font-size: 25px;
     }
-    .containerProgram{
-        height: 40vh;
-        background-image: url(hero.png);
-        background-size: cover;
-        background-position: center;
-    }
-    
-    .containerProgram div{
-        color: rgb(255, 255, 255);
-        background-color: rgba(113, 117, 117, 0.647);
-        display: inline-flex;
-        position: relative;
-        top: 55%;
-        left: 20%;
-        font-size: 200%;
-        padding: 2% 8% 2% 8%;
-    
-    }
-    
-    
-    .activities{
-        
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        padding: 70px;
-        gap: 20px;
-        
-    }
-    
-    .contenaire1{
-        
-        height: auto;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-    .contenaire2{
-        
-        height: auto;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .contenaire3{
-        
-        height: auto;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .pic1{
-        height: 40vh;
-        background-image: url(left.png);
-        background-size: cover;
-        background-position: center;
-    
-    }
-    
-    .pic2{
-        height: 40vh;
-        background-image: url(midl.png);
-        background-size: cover;
-        background-position: center;
-    }
-    
-    .pic3{
-        height: 40vh;  
-        background-image: url(right.png);
-        background-size: cover;
-        background-position: center;
-    }
-    
-    
-    
-    .disc1{
-        height: auto; 
-        background-color: rgb(120, 124, 123);
-    }
-    
-    .disc2{
-        height: auto; 
-        background-color: rgb(120, 124, 123);
-    }
-    
-    .disc3{
-        height: auto;
-        background-color: rgb(120, 124, 123);
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    .paragraphDiscrption{
-        font-size: 60%;
-    }
-    
-    .PLANS{
-        
-        text-align: center;
-        font-size: 30px;
-        color: rgb(255, 255, 255);
-    }
-    
-    .Webelieve{
-        font-size: 10px;
-        text-align: center;
-    }
-    
-    
-    .Pricinnnng{
-       
-        background-image: none;
-    
-        height:auto ;  
-        width: 100%; 
-        margin: 0% 0% 0% 0%;
-        
-          
-    }
-    
-    .pricegroup{
-    background-image: url(pricing1.png);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    gap: 2%;
-    height: 100%;
-    padding: 60px;
-    
-    
-    
-    
-    
-    }
-    
-    .pricing1{
-        background-color: rgba(48, 55, 82, 0.559);
-        
-        height: auto;
-        width: 100%;  
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 20px
-        
-       
-    }
-    
-    .pricing1 h3{
-        
-        line-height: 3;
-    }
-    
-    .titlex{
-        color: rgb(255, 255, 255);
+
+    .zoubir{
         font-size: 25px;
     }
     
-    .month{
-        color: white;
-    }
-    
-    .pricex{
-        color: rgb(255, 0, 0);
-        font-size: 30px;
-    }
-    
-    .pricing1 ul{
-        color: white;
-        line-height: 3;
-        font-size: 0.7rem;
-    }
-    
-    .pricing2{
-        background-color: rgba(48, 55, 82, 0.559);
-        
-        height: auto;
-        width: 100%;  
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 20px
-       
-    }
-    
-    .pricing2 h3{
-        
-        line-height: 3;
-    }
-    
-    
-    
-    .pricing2 ul{
-        color: white;
-        line-height: 3;
-        font-size: 0.7rem;
-    }
-    
-    .pricing3 h3{
-        
-        line-height: 3;
-    }
-    
-    
-    
-    .pricing3 ul{
-        color: white;
-        line-height: 3;
-        font-size: 0.7rem;
-    }
-    
-    
-    .pricing3{
-        background-color: rgba(48, 55, 82, 0.559);
-        
-        height: auto;
-        width: 100%;  
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 20px
-    }
-    
-    
-    .registernow{
-        display: flex;
-        justify-content: center;
-    
-    }
-    
-    
-    .registernow a{
-        text-decoration: none;
-        background-color: brown;
-        border-radius: 2rem;
-        color: rgb(255, 255, 255);
-        padding: 10px;
-        font-size: 1.2rem;
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    .coaches{
-       
-       padding-top: 20%;
-       padding-bottom: 00%; ;
-        height: 50vh;
-        width: 100%; 
-    
-        
-        background-size:100% ;
-        background-repeat: no-repeat;
-        background-position: center;
-        
-    }
-    
-    .coaches div{
-        
-        display: flex;
-        justify-content: center;
-        
-        /*position: relative;
-        top: 25%;
-        left: 32%;*/
-        font-size: 20px;
-        color: rgb(255, 255, 255);
-    }
-    
-    
-    
-    
-    
-    
-    
-    /* css for registration page*/
-    
-    /*.containerregistration{
-        height: 75vh;
-        background-image: url(Design\ sans\ titre\ \(6\).png);
-        background-size: 430%;
-        background-position: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-        padding: 00px;
-    
-    }
-    
-    .formulairestyle{
-        /*background-color: rgb(27, 49, 49);*/
-      /*  display: flex;
-        flex-direction: column;
-        align-items: center;
-        
-        
-        color: rgb(255, 255, 255);
-        font-size: 35px;
-        width: 100%;
-        height: 50%;
-        border-radius:0px;
-    }
-    
-    #Reg{
-        
-        margin-top: 0px;
-        margin-left: 24%;
-        border-radius: 7px;
-        font-size: 20px;
-        border: 2px solid transparent;
-        background-color: rgb(224, 62, 62);
-        width: 100%;
-        
-        color: white;
-        
-        
-    }
-    
-    #Reg:hover{
-        background-color: rgb(28, 216, 25) ;
-        color: rgb(255, 255, 255);
-    }
-    
-    
-    input{
-        
-    
-        width: 130%;
-        border-radius: 10px ;
-        height: 07%;
-        color: black;
-        margin-bottom: 0px;
-        border: 1px solid;
-        padding: px;
-        
-        
-    }
-    
-    
-    .Reservemy{
-        font-size: 20px;
-        /*margin-left: 15%;*/
-    /*}
-    
-    
-    
-    
-    
-    
-            
-    
-            
-   
-    
-        } */
+        } 
